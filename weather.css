@@ -1,0 +1,125 @@
+body{
+    background-image: url("https://images.hdqwalls.com/download/weather-and-sky-4k-nb-3840x2160.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+h1{
+    padding: 0px 2px;
+    background-image: radial-gradient(cyan, darkblue);
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 5px 5px 3px;
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+.weather{
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px black;
+    background-image: linear-gradient(30deg, blue, cyan);
+    text-align: center;
+    width: 35%;
+    padding: 1px 20px;
+    font-size: 30px;
+    margin-top: -80px;
+}
+.weather1, .weather2, .weather3{
+    margin-top: 5px;
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 1px black;
+    border-color: white;
+    margin-bottom: 13px;
+    color: white;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    background-color: black;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+.weather1:hover{
+    transform: translateY(-1px);
+}
+.weather2:hover{
+    transform: translateY(-1px);
+}
+.weather3:hover{
+    transform: translateY(-3px);
+}
+.form{
+    text-align: center;
+    padding: 20px 20px;
+    border-top-style: inset;
+    border-top-color: orange;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    border-width: 10px;
+    border-color:black;
+    width: 50%;
+    margin: 50px auto;
+    background-image: repeating-linear-gradient(black, black);
+}
+.find{
+    padding: 10px 60px;
+    border-bottom-style: double;
+    border-top-style: double;
+    border-left-style: none;
+    border-right-style: none;
+    border-width: 10px;
+    border-color: antiquewhite;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: transparent;
+    color: ghostwhite;
+    font-family: fantasy;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: transform 0.4s;
+    margin-right: 12px;
+}   
+.search{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border-style: double;
+    border-width: 10px;
+    border-color: white;
+    background: transparent;
+    color: ghostwhite;
+    font-family: fantasy;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+.search:hover{
+    transform: translateY(-2px);
+}
+.find:hover{
+    transform: translateY(-2px);
+}
+#a{
+    background-image:linear-gradient(blue, black);
+    border-radius: 20px;
+    transform: translateY(-19px);
+    width: 80%;
+    min-width: 50%;
+    
+}
+#b{
+    transform: translateY(-15px);
+}
+
